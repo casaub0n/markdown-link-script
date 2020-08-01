@@ -1,0 +1,9 @@
+{
+  "name": "markdown-link-script",
+  "namespace": "https://unpkg.com/@casaub0n%2Fmarkdown-link-script",
+  "version": "0.1",
+  "description": "Copy link for tab're opened",
+  "author": "casaub0n",
+  "match": "*",
+  "grant": "none"
+}
