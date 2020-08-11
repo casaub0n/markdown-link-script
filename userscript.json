@@ -4,6 +4,6 @@
   "version": "0.1",
   "description": "Copy link for tab're opened",
   "author": "casaub0n",
-  "match": "*",
+  "match": "http*://*/*",
   "grant": "none"
 }
