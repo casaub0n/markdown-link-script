@@ -1109,6 +1109,16 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
+ajv@^8.6.3:
+  version "8.6.3"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.6.3.tgz#11a66527761dc3e9a3845ea775d2d3c0414e8764"
+  integrity sha512-SMJOdDP6LqTkD0Uq8qLi+gMwSt0imXLSV080qFVwJCpH9U6Mb+SUGHAXM0KNbcBPguytWyvFxcHgMLe2D2XSpw==
+  dependencies:
+    fast-deep-equal "^3.1.1"
+    json-schema-traverse "^1.0.0"
+    require-from-string "^2.0.2"
+    uri-js "^4.2.2"
+
 alphanum-sort@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
@@ -3009,11 +3019,12 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-header-inserter@1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/header-inserter/-/header-inserter-1.0.8.tgz#8da8275d547fc5e9732e877746df2255db939b8b"
-  integrity sha512-2RqriNF3vBLYalhSPyx+VA+mPlOCJXwAV70NpFv1MsUVjf/HsxkxUu2RiZOILu2nuHUFx1Awbf79yzT1JaXAyA==
+header-inserter@1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/header-inserter/-/header-inserter-1.0.11.tgz#c804f5887a2dfd445877d2cfc4f995b68ae30920"
+  integrity sha512-bL1lZKhiQizuYxwVD8ZcwAs57VKKpQDKM+NhWzon7HeJViDBmV3mQZYjnD96FKQ0tFdSPOax8+Fn46TL5cLW2g==
   dependencies:
+    ajv "^8.6.3"
     firstline "^2.0.2"
 
 hex-color-regex@^1.1.0:
