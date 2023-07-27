@@ -29,7 +29,7 @@
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "eslint": "8.45.0",
-    "eslint-config-prettier": "8.8.0",
+    "eslint-config-prettier": "8.9.0",
     "eslint-plugin-prettier": "4.2.1",
     "header-inserter": "1.0.11",
     "parcel": "1.12.4",
