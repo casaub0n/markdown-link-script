@@ -998,6 +998,11 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
+"@rollup/rollup-linux-x64-gnu@^4.24.0":
+  version "4.45.1"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.45.1.tgz#0d4c8d0b8f801902f0844a40a9d981a0179f4971"
+  integrity sha512-+E/lYl6qu1zqgPEnTrs4WysQtvc/Sh4fC2nByfFExqgYrqkKWp1tWIbe+ELhixnenSpBbLXNi6vbEEJ8M7fiHw==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -1163,16 +1168,6 @@ ajv@^6.5.5:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
-    uri-js "^4.2.2"
-
-ajv@^8.6.3:
-  version "8.6.3"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.6.3.tgz#11a66527761dc3e9a3845ea775d2d3c0414e8764"
-  integrity sha512-SMJOdDP6LqTkD0Uq8qLi+gMwSt0imXLSV080qFVwJCpH9U6Mb+SUGHAXM0KNbcBPguytWyvFxcHgMLe2D2XSpw==
-  dependencies:
-    fast-deep-equal "^3.1.1"
-    json-schema-traverse "^1.0.0"
-    require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
 alphanum-sort@^1.0.0:
@@ -1833,6 +1828,11 @@ concat-stream@~1.6.0:
     inherits "^2.0.3"
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
+
+consola@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-3.4.2.tgz#5af110145397bb67afdab77013fdc34cae590ea7"
+  integrity sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==
 
 console-browserify@^1.1.0:
   version "1.2.0"
@@ -2785,11 +2785,6 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firstline@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/firstline/-/firstline-2.0.2.tgz#3fdfd894a80e181cd2fa478b07cadb8d446c53cd"
-  integrity sha512-8KcmfI0jgSECnzdhucm0i7vrwef3BWwgjimW2YkRC5eSFwjb5DibVoA0YvgkYwwxuJi9c+7M7X3b3lX8o9B6wg==
-
 flat-cache@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-3.0.4.tgz#61b0338302b2fe9f957dcc32fc2a87f1c3048b11"
@@ -3055,13 +3050,14 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-header-inserter@1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/header-inserter/-/header-inserter-1.0.11.tgz#c804f5887a2dfd445877d2cfc4f995b68ae30920"
-  integrity sha512-bL1lZKhiQizuYxwVD8ZcwAs57VKKpQDKM+NhWzon7HeJViDBmV3mQZYjnD96FKQ0tFdSPOax8+Fn46TL5cLW2g==
+header-inserter@1.0.26:
+  version "1.0.26"
+  resolved "https://registry.yarnpkg.com/header-inserter/-/header-inserter-1.0.26.tgz#bb820aefa5d6d7fbffe007ed6f6ee26636b942ea"
+  integrity sha512-vLzR+zWSHUIgy4tR4HPWF5Q7VM9IGaL4o2LNLRrppvHERPykE2ETS+A2qn0gsEC/uBE+EkKzhgkpDgzY2GwBvw==
   dependencies:
-    ajv "^8.6.3"
-    firstline "^2.0.2"
+    consola "3.4.2"
+    neverthrow "8.2.0"
+    valibot "1.1.0"
 
 hex-color-regex@^1.1.0:
   version "1.1.0"
@@ -3572,11 +3568,6 @@ json-schema-traverse@^0.4.1:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
   integrity sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
 
-json-schema-traverse@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
-  integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
-
 json-schema@0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
@@ -3923,6 +3914,13 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
+
+neverthrow@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/neverthrow/-/neverthrow-8.2.0.tgz#925d988295758534d01fb7468f998680b62064f2"
+  integrity sha512-kOCT/1MCPAxY5iUV3wytNFUMUolzuwd/VF/1KCx7kf6CutrOsTie+84zTGTpgQycjvfLdBBdvBvFLqFD2c0wkQ==
+  optionalDependencies:
+    "@rollup/rollup-linux-x64-gnu" "^4.24.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -4992,11 +4990,6 @@ request@^2.88.0:
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
-require-from-string@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
-  integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
-
 resolve-from@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
@@ -5835,6 +5828,11 @@ v8-compile-cache@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.1.1.tgz#54bc3cdd43317bca91e35dcaf305b1a7237de745"
   integrity sha512-8OQ9CL+VWyt3JStj7HX7/ciTL2V3Rl1Wf5OL+SNTm0yK1KvtReVulksyeRnCANHHuUxHlQig+JJDlUhBt1NQDQ==
+
+valibot@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/valibot/-/valibot-1.1.0.tgz#873bb1af9e1577391690307bfe0520bd1360ec2d"
+  integrity sha512-Nk8lX30Qhu+9txPYTwM0cFlWLdPFsFr6LblzqIySfbZph9+BFsAHsNvHOymEviUepeIW6KFHzpX8TKhbptBXXw==
 
 vendors@^1.0.0:
   version "1.0.4"
