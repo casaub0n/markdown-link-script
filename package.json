@@ -42,6 +42,6 @@
     "access": "public"
   },
   "dependencies": {
-    "hotkeys-js": "^3.8.1"
+    "hotkeys-js": "^4.0.0"
   }
 }
