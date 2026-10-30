@@ -35,7 +35,7 @@
     "parcel": "1.12.4",
     "prettier": "2.8.8",
     "rimraf": "3.0.2",
-    "typescript": "5.0.4"
+    "typescript": "5.9.3"
   },
   "types": "dist",
   "publishConfig": {
