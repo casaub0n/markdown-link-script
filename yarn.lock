@@ -3078,9 +3078,9 @@ hmac-drbg@^1.0.1:
     minimalistic-crypto-utils "^1.0.1"
 
 hotkeys-js@^4.0.0:
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/hotkeys-js/-/hotkeys-js-4.0.12.tgz#978a7b41f176cba853b4d0b8fcc7162dcb7d7302"
-  integrity sha512-tPD3tqGBcErNhpW3IpJNEJ33n7uT++aL01LssJ53KdN7Xx0KwCrMXse+vmtZK8riFrkc8T1fnyGpeS8d1yI/pQ==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/hotkeys-js/-/hotkeys-js-4.1.0.tgz#b77725e9dfe6bedf59dd674c41de41c3a8739205"
+  integrity sha512-D5fMdb04BKpMl6o9Al19plUE83ib/6htGXYU9RoAK+Xexe47T5rSPjsOBpnc85JhTAdFvQBl69G1i3bYA38S2g==
 
 hsl-regex@^1.0.0:
   version "1.0.0"
